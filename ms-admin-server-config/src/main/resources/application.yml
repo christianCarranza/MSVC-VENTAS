@@ -20,8 +20,8 @@ spring:
           uri: https://github.com/GalaxyTraining/MS-02-2022.git
           search-paths:
           - ms-admin-server-data
-          username: carranzachristian61@gmail.com
-          password: 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
+          username: ${USER_NAME}
+          password: ${USER_PASSWORD}
           clone-on-start: true
           force-pull: true
           timeout: 5
